@@ -16,16 +16,19 @@ header h1 {
     text-align: center;
    
 }
-#titulo1 {
-    color: cornsilk;
-text-align: center;
+#parrafo1 {
+    color: #efefef;
+   text-align: center;
+  
+
+
 }
 
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
     /*gap: #;*/
-    grid-template-rows: minmax(100px, auto);
+    grid-template-rows: minmax(100px, 350px);
     color: #ecf0f1;
     
 
@@ -39,14 +42,7 @@ text-align: center;
 .container div:hover {
     border: 1px solid;
 }
-.visa {
-    text-align: center;
-
-}
-
-
-
-
+/*grid*/
 footer{
     background-color: #191919;
     padding: 9rem 6rem;
@@ -58,8 +54,3 @@ footer p {
 footer a {
     text-align: center;
 }
-
- 
-
-
- 
