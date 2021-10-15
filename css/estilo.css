@@ -1,0 +1,65 @@
+body {
+    margin: auto;
+    background-color: #000;
+}
+header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: white;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+header h1 {
+   
+    font-size: 3rem;
+    text-align: center;
+   
+}
+#titulo1 {
+    color: cornsilk;
+text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    /*gap: #;*/
+    grid-template-rows: minmax(100px, auto);
+    color: #ecf0f1;
+    
+
+}
+
+.container div {
+    background: #010101;
+    padding: 1rem;
+}
+
+.container div:hover {
+    border: 1px solid;
+}
+.visa {
+    text-align: center;
+
+}
+
+
+
+
+footer{
+    background-color: #191919;
+    padding: 9rem 6rem;
+    color: #efefef;
+}
+footer p {
+    text-align: center;
+}
+footer a {
+    text-align: center;
+}
+
+ 
+
+
+ 
