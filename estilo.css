@@ -10,39 +10,47 @@ header {
     padding: 2rem 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
-header h1 {
-   
+header h1 {   
     font-size: 3rem;
-    text-align: center;
-   
+    text-align: center;  
 }
 #parrafo1 {
     color: #efefef;
    text-align: center;
-  
-
-
 }
-
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
     /*gap: #;*/
     grid-template-rows: minmax(100px, 350px);
     color: #ecf0f1;
-    
-
 }
-
 .container div {
     background: #010101;
     padding: 1rem;
 }
-
 .container div:hover {
     border: 1px solid;
 }
 /*grid*/
+#Master-Bancos {
+    text-align: center;
+    color: aliceblue;
+}
+.debancos {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    /*gap: #;*/
+    grid-template-rows: minmax(100px, 350px);
+    color: #ecf0f1;
+}
+.debancos div {
+    background: #010101;
+    padding: 1rem;
+}
+.debancos div:hover {
+    border: 1px solid;
+}
 footer{
     background-color: #191919;
     padding: 9rem 6rem;
