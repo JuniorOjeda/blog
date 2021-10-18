@@ -1,0 +1,105 @@
+body {
+    margin: auto;
+    background-color: #000;
+    }
+    header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: white;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    }
+    header h1 {   
+    font-size: 3rem;
+    text-align: center;  
+    }
+    #parte1 {
+        text-align: center;
+        color: antiquewhite;
+    }
+    
+#Tarjetas  {
+    color: rgb(155, 152, 129);
+    background-color: #040404;
+}
+#completo1 {
+    display: grid;
+grid-template-columns:  25% 25% 25% 25%;
+/*gap: #;*/
+grid-template-rows: minmax(100px, 230px);
+color: #ecf0f1;
+gap: 2px;
+grid-row: 1px;
+}
+#completo1 div {
+    background: #010101;
+    padding: 1rem;
+}
+#completo1 div:hover {
+    border: 1px solid;
+}
+@media all and (max-width: 600px) {
+
+#completo1 {
+    display: grid;
+    grid-template-columns:  50% 50%;
+    /*gap: #;*/
+    grid-template-rows: minmax(100px, 230px);
+    color: #ecf0f1;
+    gap: 2px;
+    grid-row: 1px;
+    }
+}
+#Tarjetas h3 {
+    text-align: center;
+}
+#section2 a {
+    text-align: center;
+}
+#section1 {
+    color: rosybrown;
+}
+#espacio {
+    display: grid;
+    grid-template-columns:  25% 25% 25% auto;
+    /*gap: #;*/
+    grid-template-rows: minmax(100px, 230px);
+    color: #ecf0f1;
+    gap: 2px;
+    grid-row: 1px;
+}
+#espacio2 {
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    /*gap: #;*/
+    grid-template-rows: minmax(100px, 230px);
+    color: #ecf0f1;
+    gap: 2px;
+    grid-row: 1px;
+}
+header p {
+    text-align: center;
+}
+header a{
+    text-align: center;
+
+}
+.principal {
+    text-align: center;
+    background-color: royalblue;
+}
+#publicar a {
+    text-align: left;
+}
+footer{
+    background-color: #191919;
+    padding: 9rem 6rem;
+    color: #efefef;
+}
+footer p {
+    text-align: center;
+}
+footer a {
+    text-align: center;
+}
